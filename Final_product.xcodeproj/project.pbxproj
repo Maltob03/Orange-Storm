@@ -118,7 +118,6 @@
 			children = (
 				4BE88A1B2906C5310081B885 /* Final_productApp.swift */,
 				4BE88A1D2906C5310081B885 /* ContentView.swift */,
-				5A6F5DDA2906CBAB00280653 /* New Group */,
 				4BE88A1F2906C5320081B885 /* Assets.xcassets */,
 				4BDEDB402906CBBD006571D1 /* ModelView */,
 				4BDEDB3E2906CBA7006571D1 /* View */,
@@ -151,13 +150,6 @@
 				4BE88A382906C5320081B885 /* Final_productUITestsLaunchTests.swift */,
 			);
 			path = Final_productUITests;
-			sourceTree = "<group>";
-		};
-		5A6F5DDA2906CBAB00280653 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
