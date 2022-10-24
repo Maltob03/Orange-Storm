@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< Updated upstream
 		32868FFE2906CF48002F472B /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32868FFD2906CF48002F472B /* MainPageView.swift */; };
+=======
+		4BDEDB422906CFC9006571D1 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEDB412906CFC9006571D1 /* Calendar.swift */; };
+>>>>>>> Stashed changes
 		4BE88A1C2906C5310081B885 /* Final_productApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE88A1B2906C5310081B885 /* Final_productApp.swift */; };
 		4BE88A1E2906C5310081B885 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE88A1D2906C5310081B885 /* ContentView.swift */; };
 		4BE88A202906C5320081B885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BE88A1F2906C5320081B885 /* Assets.xcassets */; };
@@ -37,7 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< Updated upstream
 		32868FFD2906CF48002F472B /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
+=======
+		4BDEDB412906CFC9006571D1 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		4BE88A182906C5310081B885 /* Final_product.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Final_product.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE88A1B2906C5310081B885 /* Final_productApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_productApp.swift; sourceTree = "<group>"; };
 		4BE88A1D2906C5310081B885 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,12 +89,16 @@
 			isa = PBXGroup;
 			children = (
 				4BE88A1D2906C5310081B885 /* ContentView.swift */,
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 				32868FFD2906CF48002F472B /* MainPageView.swift */,
 =======
 				D24336672906CF6200F051AB /* SettingsView.swift */,
 				D24336692906E0CC00F051AB /* NotificationTimerView.swift */,
 >>>>>>> ef942ee8e002f69f98876d369269e1839e17124f
+=======
+				4BDEDB412906CFC9006571D1 /* Calendar.swift */,
+>>>>>>> Stashed changes
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -297,6 +309,7 @@
 				D24336682906CF6200F051AB /* SettingsView.swift in Sources */,
 				D243366A2906E0CC00F051AB /* NotificationTimerView.swift in Sources */,
 				4BE88A1E2906C5310081B885 /* ContentView.swift in Sources */,
+				4BDEDB422906CFC9006571D1 /* Calendar.swift in Sources */,
 				4BE88A1C2906C5310081B885 /* Final_productApp.swift in Sources */,
 				32868FFE2906CF48002F472B /* MainPageView.swift in Sources */,
 			);
