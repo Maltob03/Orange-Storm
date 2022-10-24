@@ -19,8 +19,6 @@
 		4BE88A2D2906C5320081B885 /* Final_productTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE88A2C2906C5320081B885 /* Final_productTests.swift */; };
 		4BE88A372906C5320081B885 /* Final_productUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE88A362906C5320081B885 /* Final_productUITests.swift */; };
 		4BE88A392906C5320081B885 /* Final_productUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE88A382906C5320081B885 /* Final_productUITestsLaunchTests.swift */; };
-		D24336682906CF6200F051AB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24336672906CF6200F051AB /* SettingsView.swift */; };
-		D243366A2906E0CC00F051AB /* NotificationTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24336692906E0CC00F051AB /* NotificationTimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +54,6 @@
 		4BE88A322906C5320081B885 /* Final_productUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Final_productUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE88A362906C5320081B885 /* Final_productUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_productUITests.swift; sourceTree = "<group>"; };
 		4BE88A382906C5320081B885 /* Final_productUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_productUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D24336672906CF6200F051AB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		D24336692906E0CC00F051AB /* NotificationTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				4BE88A1D2906C5310081B885 /* ContentView.swift */,
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< HEAD
 				32868FFD2906CF48002F472B /* MainPageView.swift */,
@@ -99,6 +96,9 @@
 =======
 				4BDEDB412906CFC9006571D1 /* Calendar.swift */,
 >>>>>>> Stashed changes
+=======
+				32868FFD2906CF48002F472B /* MainPageView.swift */,
+>>>>>>> parent of 03bb9d0 (Main View)
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -306,8 +306,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D24336682906CF6200F051AB /* SettingsView.swift in Sources */,
-				D243366A2906E0CC00F051AB /* NotificationTimerView.swift in Sources */,
 				4BE88A1E2906C5310081B885 /* ContentView.swift in Sources */,
 				4BDEDB422906CFC9006571D1 /* Calendar.swift in Sources */,
 				4BE88A1C2906C5310081B885 /* Final_productApp.swift in Sources */,
