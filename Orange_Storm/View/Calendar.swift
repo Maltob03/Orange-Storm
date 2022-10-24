@@ -1,6 +1,6 @@
 //
 //  Calendar.swift
-//  Final_product
+//  Orange_Storm
 //
 //  Created by Matteo Altobello on 24/10/22.
 //
@@ -39,7 +39,7 @@ struct Calendar: View {
                 
                 MultiDatePicker("Dates Available", selection: $dates, in: bounds)
                 
-                    .fixedSize(horizontal: true, vertical: FALSE)
+                    .fixedSize(horizontal: true, vertical: false)
             }.navigationTitle("")
         }
             

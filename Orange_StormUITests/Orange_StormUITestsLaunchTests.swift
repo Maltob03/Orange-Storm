@@ -1,13 +1,13 @@
 //
-//  Final_productUITestsLaunchTests.swift
-//  Final_productUITests
+//  Orange_StormUITestsLaunchTests.swift
+//  Orange_StormUITests
 //
 //  Created by Matteo Altobello on 24/10/22.
 //
 
 import XCTest
 
-final class Final_productUITestsLaunchTests: XCTestCase {
+final class Orange_StormUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

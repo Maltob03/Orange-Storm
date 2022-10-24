@@ -1,9 +1,10 @@
 //
-//  Setting_View.swift
-//  Final_product
+//  SettingsPage.swift
+//  Orange_Storm
 //
-//  Created by Filomena Stellino on 24/10/22.
+//  Created by Matteo Altobello on 24/10/22.
 //
+
 
 import SwiftUI
 
@@ -16,7 +17,7 @@ struct SettingsView: View {
                 
                 
                 
-                Toggle(isOn: /*@PLACEHOLDER=Is On@*/.constant(true)) {
+                Toggle(isOn: /*@PLACEHOLDER=Is On@*/.constant(false)) {
                     Text("Sound")
                     
                 }
@@ -44,3 +45,4 @@ struct SettingsView: View {
         }
     }
 }
+

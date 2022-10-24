@@ -7,71 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< Updated upstream
-		32868FFE2906CF48002F472B /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32868FFD2906CF48002F472B /* MainPageView.swift */; };
-=======
-		4BDEDB422906CFC9006571D1 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEDB412906CFC9006571D1 /* Calendar.swift */; };
->>>>>>> Stashed changes
-		4BE88A1C2906C5310081B885 /* Final_productApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE88A1B2906C5310081B885 /* Final_productApp.swift */; };
-		4BE88A1E2906C5310081B885 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE88A1D2906C5310081B885 /* ContentView.swift */; };
-		4BE88A202906C5320081B885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BE88A1F2906C5320081B885 /* Assets.xcassets */; };
-		4BE88A232906C5320081B885 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BE88A222906C5320081B885 /* Preview Assets.xcassets */; };
-		4BE88A2D2906C5320081B885 /* Final_productTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE88A2C2906C5320081B885 /* Final_productTests.swift */; };
-		4BE88A372906C5320081B885 /* Final_productUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE88A362906C5320081B885 /* Final_productUITests.swift */; };
-		4BE88A392906C5320081B885 /* Final_productUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE88A382906C5320081B885 /* Final_productUITestsLaunchTests.swift */; };
+		4BE2DAF62906FF87001407EB /* Orange_StormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DAF52906FF87001407EB /* Orange_StormApp.swift */; };
+		4BE2DAF82906FF87001407EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DAF72906FF87001407EB /* ContentView.swift */; };
+		4BE2DAFA2906FF87001407EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BE2DAF92906FF87001407EB /* Assets.xcassets */; };
+		4BE2DAFD2906FF87001407EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BE2DAFC2906FF87001407EB /* Preview Assets.xcassets */; };
+		4BE2DB072906FF87001407EB /* Orange_StormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DB062906FF87001407EB /* Orange_StormTests.swift */; };
+		4BE2DB112906FF87001407EB /* Orange_StormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DB102906FF87001407EB /* Orange_StormUITests.swift */; };
+		4BE2DB132906FF87001407EB /* Orange_StormUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DB122906FF87001407EB /* Orange_StormUITestsLaunchTests.swift */; };
+		4BE2DB2229070090001407EB /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DB2129070090001407EB /* Calendar.swift */; };
+		4BE2DB24290700C8001407EB /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DB23290700C8001407EB /* MainPage.swift */; };
+		4BE2DB28290700FF001407EB /* NotificationTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DB27290700FF001407EB /* NotificationTimer.swift */; };
+		4BE2DB2A29070135001407EB /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DB2929070135001407EB /* SettingsPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4BE88A292906C5320081B885 /* PBXContainerItemProxy */ = {
+		4BE2DB032906FF87001407EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4BE88A102906C5310081B885 /* Project object */;
+			containerPortal = 4BE2DAEA2906FF87001407EB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4BE88A172906C5310081B885;
-			remoteInfo = Final_product;
+			remoteGlobalIDString = 4BE2DAF12906FF87001407EB;
+			remoteInfo = Orange_Storm;
 		};
-		4BE88A332906C5320081B885 /* PBXContainerItemProxy */ = {
+		4BE2DB0D2906FF87001407EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4BE88A102906C5310081B885 /* Project object */;
+			containerPortal = 4BE2DAEA2906FF87001407EB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4BE88A172906C5310081B885;
-			remoteInfo = Final_product;
+			remoteGlobalIDString = 4BE2DAF12906FF87001407EB;
+			remoteInfo = Orange_Storm;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-<<<<<<< Updated upstream
-		32868FFD2906CF48002F472B /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
-=======
-		4BDEDB412906CFC9006571D1 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
->>>>>>> Stashed changes
-		4BE88A182906C5310081B885 /* Final_product.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Final_product.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BE88A1B2906C5310081B885 /* Final_productApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_productApp.swift; sourceTree = "<group>"; };
-		4BE88A1D2906C5310081B885 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4BE88A1F2906C5320081B885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4BE88A222906C5320081B885 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4BE88A282906C5320081B885 /* Final_productTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Final_productTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BE88A2C2906C5320081B885 /* Final_productTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_productTests.swift; sourceTree = "<group>"; };
-		4BE88A322906C5320081B885 /* Final_productUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Final_productUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BE88A362906C5320081B885 /* Final_productUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_productUITests.swift; sourceTree = "<group>"; };
-		4BE88A382906C5320081B885 /* Final_productUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_productUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4BE2DAF22906FF87001407EB /* Orange_Storm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orange_Storm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE2DAF52906FF87001407EB /* Orange_StormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange_StormApp.swift; sourceTree = "<group>"; };
+		4BE2DAF72906FF87001407EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4BE2DAF92906FF87001407EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BE2DAFC2906FF87001407EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4BE2DB022906FF87001407EB /* Orange_StormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Orange_StormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE2DB062906FF87001407EB /* Orange_StormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange_StormTests.swift; sourceTree = "<group>"; };
+		4BE2DB0C2906FF87001407EB /* Orange_StormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Orange_StormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE2DB102906FF87001407EB /* Orange_StormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange_StormUITests.swift; sourceTree = "<group>"; };
+		4BE2DB122906FF87001407EB /* Orange_StormUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange_StormUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4BE2DB2129070090001407EB /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		4BE2DB23290700C8001407EB /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		4BE2DB27290700FF001407EB /* NotificationTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTimer.swift; sourceTree = "<group>"; };
+		4BE2DB2929070135001407EB /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4BE88A152906C5310081B885 /* Frameworks */ = {
+		4BE2DAEF2906FF87001407EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4BE88A252906C5320081B885 /* Frameworks */ = {
+		4BE2DAFF2906FF87001407EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4BE88A2F2906C5320081B885 /* Frameworks */ = {
+		4BE2DB092906FF87001407EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,181 +79,162 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4BDEDB3E2906CBA7006571D1 /* View */ = {
+		4BE2DAE92906FF87001407EB = {
 			isa = PBXGroup;
 			children = (
-				4BE88A1D2906C5310081B885 /* ContentView.swift */,
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-				32868FFD2906CF48002F472B /* MainPageView.swift */,
-=======
-				D24336672906CF6200F051AB /* SettingsView.swift */,
-				D24336692906E0CC00F051AB /* NotificationTimerView.swift */,
->>>>>>> ef942ee8e002f69f98876d369269e1839e17124f
-=======
-				4BDEDB412906CFC9006571D1 /* Calendar.swift */,
->>>>>>> Stashed changes
-=======
-				32868FFD2906CF48002F472B /* MainPageView.swift */,
->>>>>>> parent of 03bb9d0 (Main View)
+				4BE2DAF42906FF87001407EB /* Orange_Storm */,
+				4BE2DB052906FF87001407EB /* Orange_StormTests */,
+				4BE2DB0F2906FF87001407EB /* Orange_StormUITests */,
+				4BE2DAF32906FF87001407EB /* Products */,
 			);
-			path = View;
 			sourceTree = "<group>";
 		};
-		4BDEDB3F2906CBB6006571D1 /* Model */ = {
+		4BE2DAF32906FF87001407EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BE2DAF22906FF87001407EB /* Orange_Storm.app */,
+				4BE2DB022906FF87001407EB /* Orange_StormTests.xctest */,
+				4BE2DB0C2906FF87001407EB /* Orange_StormUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BE2DAF42906FF87001407EB /* Orange_Storm */ = {
+			isa = PBXGroup;
+			children = (
+				4BE2DAF52906FF87001407EB /* Orange_StormApp.swift */,
+				4BE2DB202906FFFA001407EB /* View */,
+				4BE2DB1F2906FFF6001407EB /* Model */,
+				4BE2DAF92906FF87001407EB /* Assets.xcassets */,
+				4BE2DAFB2906FF87001407EB /* Preview Content */,
+			);
+			path = Orange_Storm;
+			sourceTree = "<group>";
+		};
+		4BE2DAFB2906FF87001407EB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4BE2DAFC2906FF87001407EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4BE2DB052906FF87001407EB /* Orange_StormTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BE2DB062906FF87001407EB /* Orange_StormTests.swift */,
+			);
+			path = Orange_StormTests;
+			sourceTree = "<group>";
+		};
+		4BE2DB0F2906FF87001407EB /* Orange_StormUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BE2DB102906FF87001407EB /* Orange_StormUITests.swift */,
+				4BE2DB122906FF87001407EB /* Orange_StormUITestsLaunchTests.swift */,
+			);
+			path = Orange_StormUITests;
+			sourceTree = "<group>";
+		};
+		4BE2DB1F2906FFF6001407EB /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		4BDEDB402906CBBD006571D1 /* ModelView */ = {
+		4BE2DB202906FFFA001407EB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4BE2DAF72906FF87001407EB /* ContentView.swift */,
+				4BE2DB2129070090001407EB /* Calendar.swift */,
+				4BE2DB23290700C8001407EB /* MainPage.swift */,
+				4BE2DB27290700FF001407EB /* NotificationTimer.swift */,
+				4BE2DB2929070135001407EB /* SettingsPage.swift */,
 			);
-			name = ModelView;
-			path = Model/ModelView;
-			sourceTree = "<group>";
-		};
-		4BE88A0F2906C5310081B885 = {
-			isa = PBXGroup;
-			children = (
-				4BE88A1A2906C5310081B885 /* Final_product */,
-				4BE88A2B2906C5320081B885 /* Final_productTests */,
-				4BE88A352906C5320081B885 /* Final_productUITests */,
-				4BE88A192906C5310081B885 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		4BE88A192906C5310081B885 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4BE88A182906C5310081B885 /* Final_product.app */,
-				4BE88A282906C5320081B885 /* Final_productTests.xctest */,
-				4BE88A322906C5320081B885 /* Final_productUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4BE88A1A2906C5310081B885 /* Final_product */ = {
-			isa = PBXGroup;
-			children = (
-				4BE88A1B2906C5310081B885 /* Final_productApp.swift */,
-				4BDEDB3E2906CBA7006571D1 /* View */,
-				4BE88A1F2906C5320081B885 /* Assets.xcassets */,
-				4BDEDB402906CBBD006571D1 /* ModelView */,
-				4BDEDB3F2906CBB6006571D1 /* Model */,
-				4BE88A212906C5320081B885 /* Preview Content */,
-			);
-			path = Final_product;
-			sourceTree = "<group>";
-		};
-		4BE88A212906C5320081B885 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				4BE88A222906C5320081B885 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		4BE88A2B2906C5320081B885 /* Final_productTests */ = {
-			isa = PBXGroup;
-			children = (
-				4BE88A2C2906C5320081B885 /* Final_productTests.swift */,
-			);
-			path = Final_productTests;
-			sourceTree = "<group>";
-		};
-		4BE88A352906C5320081B885 /* Final_productUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4BE88A362906C5320081B885 /* Final_productUITests.swift */,
-				4BE88A382906C5320081B885 /* Final_productUITestsLaunchTests.swift */,
-			);
-			path = Final_productUITests;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4BE88A172906C5310081B885 /* Final_product */ = {
+		4BE2DAF12906FF87001407EB /* Orange_Storm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4BE88A3C2906C5320081B885 /* Build configuration list for PBXNativeTarget "Final_product" */;
+			buildConfigurationList = 4BE2DB162906FF87001407EB /* Build configuration list for PBXNativeTarget "Orange_Storm" */;
 			buildPhases = (
-				4BE88A142906C5310081B885 /* Sources */,
-				4BE88A152906C5310081B885 /* Frameworks */,
-				4BE88A162906C5310081B885 /* Resources */,
+				4BE2DAEE2906FF87001407EB /* Sources */,
+				4BE2DAEF2906FF87001407EB /* Frameworks */,
+				4BE2DAF02906FF87001407EB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Final_product;
-			productName = Final_product;
-			productReference = 4BE88A182906C5310081B885 /* Final_product.app */;
+			name = Orange_Storm;
+			productName = Orange_Storm;
+			productReference = 4BE2DAF22906FF87001407EB /* Orange_Storm.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4BE88A272906C5320081B885 /* Final_productTests */ = {
+		4BE2DB012906FF87001407EB /* Orange_StormTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4BE88A3F2906C5320081B885 /* Build configuration list for PBXNativeTarget "Final_productTests" */;
+			buildConfigurationList = 4BE2DB192906FF87001407EB /* Build configuration list for PBXNativeTarget "Orange_StormTests" */;
 			buildPhases = (
-				4BE88A242906C5320081B885 /* Sources */,
-				4BE88A252906C5320081B885 /* Frameworks */,
-				4BE88A262906C5320081B885 /* Resources */,
+				4BE2DAFE2906FF87001407EB /* Sources */,
+				4BE2DAFF2906FF87001407EB /* Frameworks */,
+				4BE2DB002906FF87001407EB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4BE88A2A2906C5320081B885 /* PBXTargetDependency */,
+				4BE2DB042906FF87001407EB /* PBXTargetDependency */,
 			);
-			name = Final_productTests;
-			productName = Final_productTests;
-			productReference = 4BE88A282906C5320081B885 /* Final_productTests.xctest */;
+			name = Orange_StormTests;
+			productName = Orange_StormTests;
+			productReference = 4BE2DB022906FF87001407EB /* Orange_StormTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4BE88A312906C5320081B885 /* Final_productUITests */ = {
+		4BE2DB0B2906FF87001407EB /* Orange_StormUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4BE88A422906C5320081B885 /* Build configuration list for PBXNativeTarget "Final_productUITests" */;
+			buildConfigurationList = 4BE2DB1C2906FF87001407EB /* Build configuration list for PBXNativeTarget "Orange_StormUITests" */;
 			buildPhases = (
-				4BE88A2E2906C5320081B885 /* Sources */,
-				4BE88A2F2906C5320081B885 /* Frameworks */,
-				4BE88A302906C5320081B885 /* Resources */,
+				4BE2DB082906FF87001407EB /* Sources */,
+				4BE2DB092906FF87001407EB /* Frameworks */,
+				4BE2DB0A2906FF87001407EB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4BE88A342906C5320081B885 /* PBXTargetDependency */,
+				4BE2DB0E2906FF87001407EB /* PBXTargetDependency */,
 			);
-			name = Final_productUITests;
-			productName = Final_productUITests;
-			productReference = 4BE88A322906C5320081B885 /* Final_productUITests.xctest */;
+			name = Orange_StormUITests;
+			productName = Orange_StormUITests;
+			productReference = 4BE2DB0C2906FF87001407EB /* Orange_StormUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4BE88A102906C5310081B885 /* Project object */ = {
+		4BE2DAEA2906FF87001407EB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					4BE88A172906C5310081B885 = {
+					4BE2DAF12906FF87001407EB = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
-					4BE88A272906C5320081B885 = {
+					4BE2DB012906FF87001407EB = {
 						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = 4BE88A172906C5310081B885;
+						TestTargetID = 4BE2DAF12906FF87001407EB;
 					};
-					4BE88A312906C5320081B885 = {
+					4BE2DB0B2906FF87001407EB = {
 						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = 4BE88A172906C5310081B885;
+						TestTargetID = 4BE2DAF12906FF87001407EB;
 					};
 				};
 			};
-			buildConfigurationList = 4BE88A132906C5310081B885 /* Build configuration list for PBXProject "Final_product" */;
+			buildConfigurationList = 4BE2DAED2906FF87001407EB /* Build configuration list for PBXProject "Orange_Storm" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -263,36 +242,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 4BE88A0F2906C5310081B885;
-			productRefGroup = 4BE88A192906C5310081B885 /* Products */;
+			mainGroup = 4BE2DAE92906FF87001407EB;
+			productRefGroup = 4BE2DAF32906FF87001407EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4BE88A172906C5310081B885 /* Final_product */,
-				4BE88A272906C5320081B885 /* Final_productTests */,
-				4BE88A312906C5320081B885 /* Final_productUITests */,
+				4BE2DAF12906FF87001407EB /* Orange_Storm */,
+				4BE2DB012906FF87001407EB /* Orange_StormTests */,
+				4BE2DB0B2906FF87001407EB /* Orange_StormUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4BE88A162906C5310081B885 /* Resources */ = {
+		4BE2DAF02906FF87001407EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BE88A232906C5320081B885 /* Preview Assets.xcassets in Resources */,
-				4BE88A202906C5320081B885 /* Assets.xcassets in Resources */,
+				4BE2DAFD2906FF87001407EB /* Preview Assets.xcassets in Resources */,
+				4BE2DAFA2906FF87001407EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4BE88A262906C5320081B885 /* Resources */ = {
+		4BE2DB002906FF87001407EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4BE88A302906C5320081B885 /* Resources */ = {
+		4BE2DB0A2906FF87001407EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -302,51 +281,53 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4BE88A142906C5310081B885 /* Sources */ = {
+		4BE2DAEE2906FF87001407EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BE88A1E2906C5310081B885 /* ContentView.swift in Sources */,
-				4BDEDB422906CFC9006571D1 /* Calendar.swift in Sources */,
-				4BE88A1C2906C5310081B885 /* Final_productApp.swift in Sources */,
-				32868FFE2906CF48002F472B /* MainPageView.swift in Sources */,
+				4BE2DAF82906FF87001407EB /* ContentView.swift in Sources */,
+				4BE2DB2229070090001407EB /* Calendar.swift in Sources */,
+				4BE2DAF62906FF87001407EB /* Orange_StormApp.swift in Sources */,
+				4BE2DB2A29070135001407EB /* SettingsPage.swift in Sources */,
+				4BE2DB28290700FF001407EB /* NotificationTimer.swift in Sources */,
+				4BE2DB24290700C8001407EB /* MainPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4BE88A242906C5320081B885 /* Sources */ = {
+		4BE2DAFE2906FF87001407EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BE88A2D2906C5320081B885 /* Final_productTests.swift in Sources */,
+				4BE2DB072906FF87001407EB /* Orange_StormTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4BE88A2E2906C5320081B885 /* Sources */ = {
+		4BE2DB082906FF87001407EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BE88A372906C5320081B885 /* Final_productUITests.swift in Sources */,
-				4BE88A392906C5320081B885 /* Final_productUITestsLaunchTests.swift in Sources */,
+				4BE2DB132906FF87001407EB /* Orange_StormUITestsLaunchTests.swift in Sources */,
+				4BE2DB112906FF87001407EB /* Orange_StormUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4BE88A2A2906C5320081B885 /* PBXTargetDependency */ = {
+		4BE2DB042906FF87001407EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4BE88A172906C5310081B885 /* Final_product */;
-			targetProxy = 4BE88A292906C5320081B885 /* PBXContainerItemProxy */;
+			target = 4BE2DAF12906FF87001407EB /* Orange_Storm */;
+			targetProxy = 4BE2DB032906FF87001407EB /* PBXContainerItemProxy */;
 		};
-		4BE88A342906C5320081B885 /* PBXTargetDependency */ = {
+		4BE2DB0E2906FF87001407EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4BE88A172906C5310081B885 /* Final_product */;
-			targetProxy = 4BE88A332906C5320081B885 /* PBXContainerItemProxy */;
+			target = 4BE2DAF12906FF87001407EB /* Orange_Storm */;
+			targetProxy = 4BE2DB0D2906FF87001407EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4BE88A3A2906C5320081B885 /* Debug */ = {
+		4BE2DB142906FF87001407EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -406,7 +387,7 @@
 			};
 			name = Debug;
 		};
-		4BE88A3B2906C5320081B885 /* Release */ = {
+		4BE2DB152906FF87001407EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -460,14 +441,14 @@
 			};
 			name = Release;
 		};
-		4BE88A3D2906C5320081B885 /* Debug */ = {
+		4BE2DB172906FF87001407EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Final_product/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Orange_Storm/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -480,7 +461,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Maltob.Final-product";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maltob.Orange-Storm";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -488,14 +469,14 @@
 			};
 			name = Debug;
 		};
-		4BE88A3E2906C5320081B885 /* Release */ = {
+		4BE2DB182906FF87001407EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Final_product/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Orange_Storm/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -508,7 +489,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Maltob.Final-product";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maltob.Orange-Storm";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -516,7 +497,7 @@
 			};
 			name = Release;
 		};
-		4BE88A402906C5320081B885 /* Debug */ = {
+		4BE2DB1A2906FF87001407EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -526,16 +507,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Maltob.Final-productTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maltob.Orange-StormTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Final_product.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Final_product";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orange_Storm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Orange_Storm";
 			};
 			name = Debug;
 		};
-		4BE88A412906C5320081B885 /* Release */ = {
+		4BE2DB1B2906FF87001407EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -545,16 +526,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Maltob.Final-productTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maltob.Orange-StormTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Final_product.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Final_product";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orange_Storm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Orange_Storm";
 			};
 			name = Release;
 		};
-		4BE88A432906C5320081B885 /* Debug */ = {
+		4BE2DB1D2906FF87001407EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -562,16 +543,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Maltob.Final-productUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maltob.Orange-StormUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Final_product;
+				TEST_TARGET_NAME = Orange_Storm;
 			};
 			name = Debug;
 		};
-		4BE88A442906C5320081B885 /* Release */ = {
+		4BE2DB1E2906FF87001407EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -579,55 +560,55 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Maltob.Final-productUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maltob.Orange-StormUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Final_product;
+				TEST_TARGET_NAME = Orange_Storm;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4BE88A132906C5310081B885 /* Build configuration list for PBXProject "Final_product" */ = {
+		4BE2DAED2906FF87001407EB /* Build configuration list for PBXProject "Orange_Storm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4BE88A3A2906C5320081B885 /* Debug */,
-				4BE88A3B2906C5320081B885 /* Release */,
+				4BE2DB142906FF87001407EB /* Debug */,
+				4BE2DB152906FF87001407EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4BE88A3C2906C5320081B885 /* Build configuration list for PBXNativeTarget "Final_product" */ = {
+		4BE2DB162906FF87001407EB /* Build configuration list for PBXNativeTarget "Orange_Storm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4BE88A3D2906C5320081B885 /* Debug */,
-				4BE88A3E2906C5320081B885 /* Release */,
+				4BE2DB172906FF87001407EB /* Debug */,
+				4BE2DB182906FF87001407EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4BE88A3F2906C5320081B885 /* Build configuration list for PBXNativeTarget "Final_productTests" */ = {
+		4BE2DB192906FF87001407EB /* Build configuration list for PBXNativeTarget "Orange_StormTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4BE88A402906C5320081B885 /* Debug */,
-				4BE88A412906C5320081B885 /* Release */,
+				4BE2DB1A2906FF87001407EB /* Debug */,
+				4BE2DB1B2906FF87001407EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4BE88A422906C5320081B885 /* Build configuration list for PBXNativeTarget "Final_productUITests" */ = {
+		4BE2DB1C2906FF87001407EB /* Build configuration list for PBXNativeTarget "Orange_StormUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4BE88A432906C5320081B885 /* Debug */,
-				4BE88A442906C5320081B885 /* Release */,
+				4BE2DB1D2906FF87001407EB /* Debug */,
+				4BE2DB1E2906FF87001407EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4BE88A102906C5310081B885 /* Project object */;
+	rootObject = 4BE2DAEA2906FF87001407EB /* Project object */;
 }

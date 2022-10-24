@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Final_product
+//  Orange_Storm
 //
 //  Created by Matteo Altobello on 24/10/22.
 //
@@ -10,10 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "moon")
+            Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("buonanotte")
+            Text("Hello, world!")
         }
         .padding()
     }

@@ -1,8 +1,8 @@
 //
-//  MainPageView.swift
-//  Final_product
+//  MainPage.swift
+//  Orange_Storm
 //
-//  Created by Sofia Esposito on 24/10/22.
+//  Created by Matteo Altobello on 24/10/22.
 //
 
 import SwiftUI
@@ -44,4 +44,3 @@ struct MainPageView: View {
             MainPageView()
         }
     }
-

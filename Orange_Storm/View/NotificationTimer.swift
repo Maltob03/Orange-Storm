@@ -1,8 +1,8 @@
 //
-//  NotificationTimerView.swift
-//  Final_product
+//  NotificationTimer.swift
+//  Orange_Storm
 //
-//  Created by Filomena Stellino on 24/10/22.
+//  Created by Matteo Altobello on 24/10/22.
 //
 
 import SwiftUI

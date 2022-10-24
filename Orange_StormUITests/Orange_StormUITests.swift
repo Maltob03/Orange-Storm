@@ -1,13 +1,13 @@
 //
-//  Final_productUITests.swift
-//  Final_productUITests
+//  Orange_StormUITests.swift
+//  Orange_StormUITests
 //
 //  Created by Matteo Altobello on 24/10/22.
 //
 
 import XCTest
 
-final class Final_productUITests: XCTestCase {
+final class Orange_StormUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
