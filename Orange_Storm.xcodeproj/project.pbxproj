@@ -18,6 +18,7 @@
 		4BE2DB24290700C8001407EB /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DB23290700C8001407EB /* MainPage.swift */; };
 		4BE2DB28290700FF001407EB /* NotificationTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DB27290700FF001407EB /* NotificationTimer.swift */; };
 		4BE2DB2A29070135001407EB /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DB2929070135001407EB /* SettingsPage.swift */; };
+		ACB0DCB629083B5700FB38DC /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0DCB529083B5700FB38DC /* NoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		4BE2DB23290700C8001407EB /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 		4BE2DB27290700FF001407EB /* NotificationTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTimer.swift; sourceTree = "<group>"; };
 		4BE2DB2929070135001407EB /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
+		ACB0DCB529083B5700FB38DC /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				4BE2DB23290700C8001407EB /* MainPage.swift */,
 				4BE2DB27290700FF001407EB /* NotificationTimer.swift */,
 				4BE2DB2929070135001407EB /* SettingsPage.swift */,
+				ACB0DCB529083B5700FB38DC /* NoteView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				4BE2DAF62906FF87001407EB /* Orange_StormApp.swift in Sources */,
 				4BE2DB2A29070135001407EB /* SettingsPage.swift in Sources */,
 				4BE2DB28290700FF001407EB /* NotificationTimer.swift in Sources */,
+				ACB0DCB629083B5700FB38DC /* NoteView.swift in Sources */,
 				4BE2DB24290700C8001407EB /* MainPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
