@@ -8,6 +8,17 @@
 import SwiftUI
 
 struct NoteView: View {
+    
+    let dateFormatter: DateFormatter = {
+            let formatter = DateFormatter()
+            formatter.dateStyle = .long
+            return formatter
+        }()
+    @State private var date = Date()
+    
+    
+    
+    
     @State private var inputText = ""
     @State private var inputText2 = ""
     @State private var inputText3 = ""
@@ -16,8 +27,7 @@ struct NoteView: View {
         VStack{
             Text("Diary")
                 .fontWeight(.bold)
-            Text("July , 5th 2022")
-                .fontWeight(.bold)
+            Text("Date is \(date, formatter: dateFormatter)").fontWeight(.bold)
             
             List{
                 Text("How do you feel?")

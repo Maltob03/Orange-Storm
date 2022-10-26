@@ -8,26 +8,43 @@
 import SwiftUI
 
 struct Calendar: View {
+    
+    let dateFormatter: DateFormatter = {
+            let formatter = DateFormatter()
+            formatter.dateStyle = .long
+            return formatter
+        }()
         
-    @State var selectedDates: Set<DateComponents> = []
+    @State private var date = Date()
 
     var body: some View {
         NavigationView(){
             VStack{
-                MultiDatePicker("Travel Dates", selection: $selectedDates).fixedSize(horizontal: true, vertical: true)
+                
+                DatePicker("", selection: $date)
+                                .datePickerStyle(GraphicalDatePickerStyle())
+                                .frame(maxHeight: 400)
                 NoteView()
                 
+                            }.navigationTitle("Diary")
+            
+            //End VStack
+            
+            
+
+
+                            
                 
                 
                 
                 
                 
-            }.navigationTitle("Diary")
+                
+                
+            }
         }
                 
     }
-            
-}
 
 struct Calendar_Previews: PreviewProvider {
     static var previews: some View {
