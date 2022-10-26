@@ -11,7 +11,7 @@ import SwiftUI
 struct Orange_StormApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NoteView()
         }
     }
 }
