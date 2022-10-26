@@ -31,16 +31,21 @@ struct NoteView: View {
             
             List{
                 Text("How do you feel?")
+                    .font(.title2)
                     .fontWeight(.bold)
                     
                 TextEditor(text: $inputText)
-                Text("What appened?")
+                Text("What happened?")
+                    .font(.title2)
                     .fontWeight(.bold)
+
                 TextEditor(text: $inputText2)
-                Text("How did  you feel?")
+                Text("How did you feel?")
+                    .font(.title2)
                     .fontWeight(.bold)
                 TextEditor(text: $inputText3)
                 Text("What do you think agitated you?")
+                    .font(.title2)
                     .fontWeight(.bold)
                 TextEditor(text: $inputText4)
             }
