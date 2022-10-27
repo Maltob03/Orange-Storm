@@ -9,12 +9,20 @@ import SwiftUI
 
 struct MainPageView: View {
     
+    
+    //Var for animation
     @State var isCenter = true
     @State var isCenter2 = true
+    //Var for On/Off function
     @State var bool1 = 0
     @State var bool2 = 0
+    //var for GOOD X func()
+    let hh2 = (Calendar.current.component(.hour, from: Date()))
+    //Var For Breath function
     @State var timeRemaining = 12
-        let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+   
+
 
     
     
@@ -25,14 +33,22 @@ struct MainPageView: View {
             
             VStack{
                 HStack{
-                    
-                    Text("Good Morning")
-                        .font(.system(size: 29.8))
-                        .bold()
-                        .position(x:120, y: 30)
+                    if(hh2>12){
+                        Text("Good Evening")
+                            .font(.system(size: 29.8))
+                            .bold()
+                            .position(x:120, y: 30)
+                    }
+                    else{
+                        Text("Good Moorning")
+                            .font(.system(size: 29.8))
+                            .bold()
+                            .position(x:120, y: 30)
+                        
+                    }
                     
                     NavigationLink(
-                        destination: Calendar (),
+                        destination: CalendarView (),
                         label: {
                             
                             Image(systemName: "calendar")

@@ -1,5 +1,5 @@
 //
-//  Calendar.swift
+//  CalendarView.swift
 //  Orange_Storm
 //
 //  Created by Matteo Altobello on 24/10/22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Calendar: View {
+struct CalendarView: View {
     
     let dateFormatter: DateFormatter = {
         let formatter = DateFormatter()
@@ -37,7 +37,7 @@ struct Calendar: View {
 
 struct Calendar_Previews: PreviewProvider {
     static var previews: some View {
-        Calendar()
+        CalendarView()
     }
 }
 
