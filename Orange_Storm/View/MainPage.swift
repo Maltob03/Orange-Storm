@@ -89,7 +89,7 @@ struct MainPageView: View {
                 Text("Breath in").opacity(1).offset(x:0,y:30).bold()
                 
                 
-                Text("Breath in").opacity(1).offset(x:0,y:30).bold()
+                Text("Breath Out").opacity(1).offset(x:0,y:30).bold()
                 
                 
                 HStack{
@@ -108,9 +108,9 @@ struct MainPageView: View {
                         
                     }
                     else {
-                        Image(systemName: "iphone.radiowaves.left.and.right")
+                        Image(systemName: "speaker.slash")
                             .resizable()
-                            .frame(width: 45, height: 30, alignment: .center)
+                            .frame(width: 30, height: 30, alignment: .center)
                             .foregroundColor(.black)
                             .position(x: 100, y: 180).gesture(
                                 TapGesture().onEnded { _ in
@@ -122,9 +122,9 @@ struct MainPageView: View {
                     
                     
                     if(bool2 % 2 == 0){
-                        Image(systemName: "globe")
+                        Image(systemName: "iphone.radiowaves.left.and.right")
                             .resizable()
-                            .frame(width: 30, height: 30, alignment: .center)
+                            .frame(width: 45, height: 30, alignment: .center)
                             .foregroundColor(.black)
                             .position(x: 100, y: 180)
                             .gesture(
@@ -135,9 +135,9 @@ struct MainPageView: View {
                         
                     }
                     else {
-                        Image(systemName: "book")
+                        Image(systemName: "iphone.homebutton.slash")
                             .resizable()
-                            .frame(width: 45, height: 30, alignment: .center)
+                            .frame(width: 30, height: 30, alignment: .center)
                             .foregroundColor(.black)
                             .position(x: 100, y: 180).gesture(
                                 TapGesture().onEnded { _ in
