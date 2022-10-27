@@ -24,8 +24,23 @@ struct Calendar: View {
                     DatePicker("", selection: $date)
                         .datePickerStyle(GraphicalDatePickerStyle())
                         .frame(maxHeight: 400)
-                    NoteView()
-                }.navigationTitle("Diary").frame(width: UIScreen.main.bounds.width, height: 1200)//End VStack
+                    
+                }
+                .toolbar(content: {
+                    ToolbarItem {
+                        NavigationLink(
+                            destination: NoteView(),
+                            label: {
+                                Image(systemName: "plus")
+                                    .resizable()
+                                    .frame(width: 30, height: 30, alignment: .center)
+                                    .foregroundColor(.black)
+
+                            })
+                    }
+                })
+                .navigationTitle("Diary")
+                //.frame(width: UIScreen.main.bounds.width, height: 1200)//End VStack
                 
                 
             }
