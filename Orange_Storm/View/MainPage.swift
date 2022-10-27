@@ -13,9 +13,11 @@ struct MainPageView: View {
     @State var isCenter2 = true
     @State var bool1 = 0
     @State var bool2 = 0
+    @State var timeRemaining = 12
+        let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+
     
-
-
+    
     
     var body: some View {
         
@@ -85,11 +87,24 @@ struct MainPageView: View {
                         }
                     }
                 
+                    .onReceive(timer) { _ in
+                        if timeRemaining > 0 {
+                            timeRemaining -= 1
+                        }
+                        else {
+                            timeRemaining = 12
+                        }
+                    }
                 
-                Text("Breath in").opacity(1).offset(x:0,y:30).bold()
-                
-                
-                Text("Breath Out").opacity(1).offset(x:0,y:30).bold()
+                if(timeRemaining>6){
+                    Text("Breath in").offset(x:0,y:50)
+                        
+                }
+                else{
+                    Text("Breath out").offset(x:0,y:50)
+                }
+               
+                 
                 
                 
                 HStack{
