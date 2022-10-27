@@ -11,6 +11,12 @@ struct MainPageView: View {
     
     @State var isCenter = true
     @State var isCenter2 = true
+    @State var bool1 = 0
+    @State var bool2 = 0
+    
+    
+    
+
     
     var body: some View {
         
@@ -80,32 +86,87 @@ struct MainPageView: View {
                         }
                     }
                 
+                
+                Text("Breath in").opacity(1).offset(x:0,y:30).bold().animation(.easeInOut(duration: 6))
+                
+                
+                Text("Breath in").opacity(1).offset(x:0,y:30).bold()
+                
+                
                 HStack{
                     
-                    Image(systemName: "speaker.wave.2")
-                        .resizable()
-                        .frame(width: 30, height: 30, alignment: .center)
-                        .foregroundColor(.black)
-                        .position(x: 100, y: 180)
+                    if(bool1 % 2 == 0){
+                        Image(systemName: "speaker.wave.2")
+                            .resizable()
+                            .frame(width: 30, height: 30, alignment: .center)
+                            .foregroundColor(.black)
+                            .position(x: 100, y: 180)
+                            .gesture(
+                                TapGesture().onEnded { _ in
+                                    bool1=bool1 + 1
+                                }
+                            )
+                        
+                    }
+                    else {
+                        Image(systemName: "iphone.radiowaves.left.and.right")
+                            .resizable()
+                            .frame(width: 45, height: 30, alignment: .center)
+                            .foregroundColor(.black)
+                            .position(x: 100, y: 180).gesture(
+                                TapGesture().onEnded { _ in
+                                    bool1=bool1 + 1
+                                }
+                            )
+                        
+                    }
                     
                     
-                    Image(systemName: "iphone.radiowaves.left.and.right")
-                        .resizable()
-                        .frame(width: 45, height: 30, alignment: .center)
-                        .foregroundColor(.black)
-                        .position(x: 100, y: 180)
+                    if(bool2 % 2 == 0){
+                        Image(systemName: "globe")
+                            .resizable()
+                            .frame(width: 30, height: 30, alignment: .center)
+                            .foregroundColor(.black)
+                            .position(x: 100, y: 180)
+                            .gesture(
+                                TapGesture().onEnded { _ in
+                                    bool2=bool2 + 1
+                                }
+                            )
+                        
+                    }
+                    else {
+                        Image(systemName: "book")
+                            .resizable()
+                            .frame(width: 45, height: 30, alignment: .center)
+                            .foregroundColor(.black)
+                            .position(x: 100, y: 180).gesture(
+                                TapGesture().onEnded { _ in
+                                    bool2=bool2 + 1
+                                }
+                            )
+                        
+                    }
                     
                     
-                   
+                    
+                    
+                    
+                    
+                    
+                    
+                    
                     
                 }
-                }
-                
             }
-        }
-        }
-    struct MainPageView_Previews: PreviewProvider {
-        static var previews: some View {
-            MainPageView()
+            
+            
+            
         }
     }
+}
+struct MainPageView_Previews: PreviewProvider {
+    static var previews: some View {
+        MainPageView()
+    }
+}
