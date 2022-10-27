@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AudioToolbox
 
 struct MainPageView: View {
     
@@ -150,17 +151,18 @@ struct MainPageView: View {
                         
                     }
                     else {
-                        Image(systemName: "iphone.homebutton.slash")
+                        Image(systemName: "iphone.slash")
                             .resizable()
                             .frame(width: 30, height: 30, alignment: .center)
                             .foregroundColor(.black)
                             .position(x: 100, y: 180).gesture(
                                 TapGesture().onEnded { _ in
                                     bool2=bool2 + 1
+                                    AudioServicesPlayAlertSoundWithCompletion(SystemSoundID(kSystemSoundID_Vibrate)) {   }
                                 }
-                            )
-                        
-                    }
+                            ) 
+                    
+                        }
                     
                     
                     

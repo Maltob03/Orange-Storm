@@ -25,7 +25,7 @@ struct NoteView: View {
     @State private var inputText4 = ""
     var body: some View {
         VStack{
-            Text("Diary")
+            Text("")
                 .fontWeight(.bold).fixedSize(horizontal: false, vertical: true)
             Text("Date is \(date, formatter: dateFormatter)").fontWeight(.bold)
             
