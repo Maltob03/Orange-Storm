@@ -14,8 +14,7 @@ struct MainPageView: View {
     @State var bool1 = 0
     @State var bool2 = 0
     
-    
-    
+
 
     
     var body: some View {
@@ -87,7 +86,7 @@ struct MainPageView: View {
                     }
                 
                 
-                Text("Breath in").opacity(1).offset(x:0,y:30).bold().animation(.easeInOut(duration: 6))
+                Text("Breath in").opacity(1).offset(x:0,y:30).bold()
                 
                 
                 Text("Breath in").opacity(1).offset(x:0,y:30).bold()
