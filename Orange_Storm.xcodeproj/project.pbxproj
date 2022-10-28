@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32DF14CD290C25BC00005D2C /* Balloon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32DF14CC290C25BC00005D2C /* Balloon.mp3 */; };
 		4B2D0427290BC566009F0F03 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D0426290BC566009F0F03 /* Event.swift */; };
 		4B2D0429290BC632009F0F03 /* EventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D0428290BC632009F0F03 /* EventStore.swift */; };
 		4B2D042C290BC8A1009F0F03 /* EventCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D042B290BC8A1009F0F03 /* EventCalendarView.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32DF14CC290C25BC00005D2C /* Balloon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Balloon.mp3; sourceTree = "<group>"; };
 		4B2D0426290BC566009F0F03 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		4B2D0428290BC632009F0F03 /* EventStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventStore.swift; sourceTree = "<group>"; };
 		4B2D042B290BC8A1009F0F03 /* EventCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCalendarView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32DF14CB290C25B300005D2C /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				32DF14CC290C25BC00005D2C /* Balloon.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
 		4B2D0425290BC553009F0F03 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +222,7 @@
 				4B2D042A290BC653009F0F03 /* CalendarViewTab */,
 				4BE2DAF72906FF87001407EB /* ContentView.swift */,
 				4BE2DB23290700C8001407EB /* MainPage.swift */,
+				32DF14CB290C25B300005D2C /* Music */,
 				4BE2DB27290700FF001407EB /* NotificationTimer.swift */,
 				4BE2DB2929070135001407EB /* SettingsPage.swift */,
 				ACB0DCB529083B5700FB38DC /* NoteView.swift */,
@@ -326,6 +337,7 @@
 			files = (
 				4BE2DAFD2906FF87001407EB /* Preview Assets.xcassets in Resources */,
 				4BE2DAFA2906FF87001407EB /* Assets.xcassets in Resources */,
+				32DF14CD290C25BC00005D2C /* Balloon.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

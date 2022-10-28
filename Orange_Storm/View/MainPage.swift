@@ -6,7 +6,49 @@
 //
 
 import SwiftUI
+import AVKit
 import AudioToolbox
+
+// Class for music
+class SoundManager{
+    
+    static let instance = SoundManager ()
+    var player : AVAudioPlayer?
+    enum SoundOption : String {
+         case Balloon
+    }
+    func playSound( sound: SoundOption){
+        guard  let url = Bundle.main.url(forResource: sound.rawValue, withExtension: ".mp3") else { return }
+        
+        do {
+            
+            player  = try AVAudioPlayer (contentsOf: url)
+            player?.play()
+            
+        } catch let error {
+            print("error playing sound. \(error.localizedDescription )")
+            
+            
+        }
+    }
+    func pauseSound( sound: SoundOption){
+        
+        
+        guard  let url = Bundle.main.url(forResource: sound.rawValue, withExtension: ".mp3") else { return }
+        
+        do {
+            
+            player  = try AVAudioPlayer (contentsOf: url)
+            player?.pause()
+            
+        } catch let error {
+            print("error playing sound. \(error.localizedDescription )")
+            
+            
+        }
+    }
+}
+
 
 struct MainPageView: View {
     
@@ -146,7 +188,7 @@ struct MainPageView: View {
                 
                 HStack{
                     
-                    if(bool1 % 2 == 0){
+                    if(bool1 % 2 == 0) {
                         Image(systemName: "speaker.wave.2")
                             .resizable()
                             .frame(width: 30, height: 30, alignment: .center)
@@ -155,8 +197,12 @@ struct MainPageView: View {
                             .gesture(
                                 TapGesture().onEnded { _ in
                                     bool1=bool1 + 1
+                                    SoundManager .instance.playSound(sound:  .Balloon)
                                 }
+                                
                             )
+                        
+                        
                         
                     }
                     else {
@@ -167,8 +213,11 @@ struct MainPageView: View {
                             .position(x: 100, y: 180).gesture(
                                 TapGesture().onEnded { _ in
                                     bool1=bool1 + 1
+                                    SoundManager .instance.pauseSound(sound:  .Balloon)
+                                    
                                 }
                             )
+                        
                         
                     }
                     
