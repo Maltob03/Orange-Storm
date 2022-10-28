@@ -27,7 +27,7 @@ struct MainPageView: View {
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     //VAR FOR ALERT
     @State private var showingAlert = false
-    @State var timeAlert = 5
+    @State var timeAlert = 30
     @State var state = ""
     
     
