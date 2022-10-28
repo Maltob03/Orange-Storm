@@ -65,7 +65,6 @@ struct Event: Identifiable {
             Event(date: Date().diff(numDays: -1), note: "Get gift for Emily"),
             Event(eventType: .Fear, date: Date().diff(numDays: 6), note: "Now I just need to stay in a safe space."),
             Event(eventType: .Anger, date: Date().diff(numDays: 2), note: "Such a mess!"),
-            Event(eventType: .Joy, date: Date().diff(numDays: -1), note: "It was a great day!"),
             Event(eventType: .Sadness, date: Date().diff(numDays: -3), note: "Never again!"),
             Event(date: Date().diff(numDays: -4), note: "Plan for winter vacation.")
         ]

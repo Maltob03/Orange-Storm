@@ -9,45 +9,6 @@ import SwiftUI
 import AVKit
 import AudioToolbox
 
-// Class for music
-class SoundManager{
-    
-    static let instance = SoundManager ()
-    var player : AVAudioPlayer?
-    enum SoundOption : String {
-         case Balloon
-    }
-    func playSound( sound: SoundOption){
-        guard  let url = Bundle.main.url(forResource: sound.rawValue, withExtension: ".mp3") else { return }
-        
-        do {
-            
-            player  = try AVAudioPlayer (contentsOf: url)
-            player?.play()
-            
-        } catch let error {
-            print("error playing sound. \(error.localizedDescription )")
-            
-            
-        }
-    }
-    func pauseSound( sound: SoundOption){
-        
-        
-        guard  let url = Bundle.main.url(forResource: sound.rawValue, withExtension: ".mp3") else { return }
-        
-        do {
-            
-            player  = try AVAudioPlayer (contentsOf: url)
-            player?.pause()
-            
-        } catch let error {
-            print("error playing sound. \(error.localizedDescription )")
-            
-            
-        }
-    }
-}
 
 
 struct MainPageView: View {
@@ -66,8 +27,10 @@ struct MainPageView: View {
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     //VAR FOR ALERT
     @State private var showingAlert = false
-
-
+    @State var timeAlert = 5
+    @State var state = ""
+    
+    
     
     
     
@@ -86,11 +49,13 @@ struct MainPageView: View {
                             .font(.system(size: 26.8))
                             .bold()
                             .position(x:120, y: 30)
+                        
                             .alert("Hey are you still breathing?", isPresented: $showingAlert) {
-                                        Button("Stay Here") { }
-                                        Button("Go to Calendar") { }
-                                    }
-                                                }
+                                Button("Stay Here") {state = "OK"}
+                                Button("Go to Calendar") {state = "OK" }
+                            }
+                        
+                    }
                     else{
                         
                         
@@ -99,13 +64,13 @@ struct MainPageView: View {
                             .font(.system(size: 26.8))
                             .bold()
                             .position(x:120, y: 30)
-                            
-
+                        
+                        
                         
                         
                     }
                     
-                        
+                    
                     
                     
                     NavigationLink(
@@ -170,10 +135,21 @@ struct MainPageView: View {
                         }
                         else {
                             timeRemaining = 12
+                            
+                        }
+                    }
+                
+                    .onReceive(timer) { _ in
+                        if (timeAlert > 0 || state == "OK")  {
+                            timeAlert -= 1
+                            showingAlert = false
+                        }
+                        else {
                             showingAlert = true
                             
                         }
                     }
+                
                 
                 if(timeRemaining>6){
                     Text("Breath in").offset(x:0,y:50).font(.title2)
