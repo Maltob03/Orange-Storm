@@ -22,29 +22,49 @@ struct MainPageView: View {
     //Var For Breath function
     @State var timeRemaining = 12
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+    //VAR FOR ALERT
+    @State private var showingAlert = false
+
+
     
- 
-
-
+    
+    
+    
+    
+    
     var body: some View {
         
         NavigationView {
             
             VStack{
+                
                 HStack{
                     if(hh2>12){
                         Text("Good Evening")
                             .font(.system(size: 26.8))
                             .bold()
                             .position(x:120, y: 30)
-                    }
+                            .alert("Hey are you still breathing?", isPresented: $showingAlert) {
+                                        Button("Stay Here") { }
+                                        Button("Go to Calendar") { }
+                                    }
+                                                }
                     else{
+                        
+                        
+                        
                         Text("Good Moorning")
                             .font(.system(size: 26.8))
                             .bold()
                             .position(x:120, y: 30)
+                            
+
+                        
                         
                     }
+                    
+                        
+                    
                     
                     NavigationLink(
                         destination: EventsCalendarView(),
@@ -108,6 +128,8 @@ struct MainPageView: View {
                         }
                         else {
                             timeRemaining = 12
+                            showingAlert = true
+                            
                         }
                     }
                 
@@ -118,8 +140,8 @@ struct MainPageView: View {
                 else{
                     Text("Breath out").offset(x:0,y:50).font(.title2)
                     .fontWeight(.bold)                }
-               
-                 
+                
+                
                 
                 
                 HStack{
@@ -174,9 +196,9 @@ struct MainPageView: View {
                                     bool2=bool2 + 1
                                     AudioServicesPlayAlertSoundWithCompletion(SystemSoundID(kSystemSoundID_Vibrate)) {   }
                                 }
-                            ) 
-                    
-                        }
+                            )
+                        
+                    }
                     
                     
                     
