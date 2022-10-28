@@ -61,12 +61,12 @@ struct Event: Identifiable {
     // Data to be used in the preview
     static var sampleEvents: [Event] {
         return [
-            Event(eventType: .Fear, date: Date().diff(numDays: 0), note: "Take dog to groomers"),
+            Event(eventType: .Fear, date: Date().diff(numDays: 0), note: "I need to calm down"),
             Event(date: Date().diff(numDays: -1), note: "Get gift for Emily"),
-            Event(eventType: .Fear, date: Date().diff(numDays: 6), note: "File tax returns."),
-            Event(eventType: .Anger, date: Date().diff(numDays: 2), note: "Dinner party at Dave and Janet's"),
-            Event(eventType: .Joy, date: Date().diff(numDays: -1), note: "Complete Audit."),
-            Event(eventType: .Sadness, date: Date().diff(numDays: -3), note: "Football Game"),
+            Event(eventType: .Fear, date: Date().diff(numDays: 6), note: "Now I just need to stay in a safe space."),
+            Event(eventType: .Anger, date: Date().diff(numDays: 2), note: "Such a mess!"),
+            Event(eventType: .Joy, date: Date().diff(numDays: -1), note: "It was a great day!"),
+            Event(eventType: .Sadness, date: Date().diff(numDays: -3), note: "Never again!"),
             Event(date: Date().diff(numDays: -4), note: "Plan for winter vacation.")
         ]
     }
