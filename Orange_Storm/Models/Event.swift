@@ -12,22 +12,22 @@ import Foundation
 
 struct Event: Identifiable {
     enum EventType: String, Identifiable, CaseIterable {
-        case Joy, Fear, Anger, Sadness, Unspecified
+        case Panic_Attack, Anxiety, social, sport, unspecified
         var id: String {
             self.rawValue
         }
 
         var icon: String {
             switch self {
-            case .Joy:
-                return "🥳"
-            case .Fear:
-                return "😨"
-            case .Anger:
-                return "😡"
-            case .Sadness:
-                return "😭"
-            case .Unspecified:
+            case .Panic_Attack:
+                return "🏦"
+            case .Anxiety:
+                return "🏡"
+            case .social:
+                return "🎉"
+            case .sport:
+                return "🏟"
+            case .unspecified:
                 return "📌"
             }
         }
@@ -51,7 +51,7 @@ struct Event: Identifiable {
         return dateComponents
     }
 
-    init(id: String = UUID().uuidString, eventType: EventType = .Unspecified, date: Date, note: String) {
+    init(id: String = UUID().uuidString, eventType: EventType = .unspecified, date: Date, note: String) {
         self.eventType = eventType
         self.date = date
         self.note = note
@@ -61,12 +61,12 @@ struct Event: Identifiable {
     // Data to be used in the preview
     static var sampleEvents: [Event] {
         return [
-            Event(eventType: .Fear, date: Date().diff(numDays: 0), note: "I just need to stay in a safe space"),
+            Event(eventType: .Anxiety, date: Date().diff(numDays: 0), note: "Take dog to groomers"),
             Event(date: Date().diff(numDays: -1), note: "Get gift for Emily"),
-            Event(eventType: .Fear, date: Date().diff(numDays: 6), note: "Trying to calm down."),
-            Event(eventType: .Anger, date: Date().diff(numDays: 2), note: "Such a mess!"),
-            Event(eventType: .Joy, date: Date().diff(numDays: -1), note: "It was a great day!"),
-            Event(eventType: .Sadness, date: Date().diff(numDays: -3), note: "Never again!"),
+            Event(eventType: .Anxiety, date: Date().diff(numDays: 6), note: "File tax returns."),
+            Event(eventType: .social, date: Date().diff(numDays: 2), note: "Dinner party at Dave and Janet's"),
+            Event(eventType: .Panic_Attack, date: Date().diff(numDays: -1), note: "Complete Audit."),
+            Event(eventType: .sport, date: Date().diff(numDays: -3), note: "Football Game"),
             Event(date: Date().diff(numDays: -4), note: "Plan for winter vacation.")
         ]
     }
