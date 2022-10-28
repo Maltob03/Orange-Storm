@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B2D0427290BC566009F0F03 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D0426290BC566009F0F03 /* Event.swift */; };
+		4B2D0429290BC632009F0F03 /* EventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D0428290BC632009F0F03 /* EventStore.swift */; };
+		4B2D042C290BC8A1009F0F03 /* EventCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D042B290BC8A1009F0F03 /* EventCalendarView.swift */; };
+		4B2D0430290BC8F2009F0F03 /* DaysEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D042F290BC8F2009F0F03 /* DaysEvents.swift */; };
+		4B2D0433290BC975009F0F03 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D0432290BC975009F0F03 /* Date+Extension.swift */; };
+		4B2D0436290BCA34009F0F03 /* EventFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D0435290BCA34009F0F03 /* EventFormViewModel.swift */; };
+		4B2D0438290BCA58009F0F03 /* EventFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D0437290BCA58009F0F03 /* EventFormView.swift */; };
+		4B2D043C290BCA9F009F0F03 /* EventFormType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D043B290BCA9F009F0F03 /* EventFormType.swift */; };
+		4B2D0441290BCBF3009F0F03 /* EventsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D0440290BCBF3009F0F03 /* EventsListView.swift */; };
+		4B2D0443290BCC16009F0F03 /* ListViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D0442290BCC16009F0F03 /* ListViewRow.swift */; };
+		4BA992DC290BC2610078F8DD /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA992DB290BC2610078F8DD /* CalendarView.swift */; };
 		4BE2DAF62906FF87001407EB /* Orange_StormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DAF52906FF87001407EB /* Orange_StormApp.swift */; };
 		4BE2DAF82906FF87001407EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DAF72906FF87001407EB /* ContentView.swift */; };
 		4BE2DAFA2906FF87001407EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BE2DAF92906FF87001407EB /* Assets.xcassets */; };
@@ -14,7 +25,6 @@
 		4BE2DB072906FF87001407EB /* Orange_StormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DB062906FF87001407EB /* Orange_StormTests.swift */; };
 		4BE2DB112906FF87001407EB /* Orange_StormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DB102906FF87001407EB /* Orange_StormUITests.swift */; };
 		4BE2DB132906FF87001407EB /* Orange_StormUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DB122906FF87001407EB /* Orange_StormUITestsLaunchTests.swift */; };
-		4BE2DB2229070090001407EB /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DB2129070090001407EB /* CalendarView.swift */; };
 		4BE2DB24290700C8001407EB /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DB23290700C8001407EB /* MainPage.swift */; };
 		4BE2DB28290700FF001407EB /* NotificationTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DB27290700FF001407EB /* NotificationTimer.swift */; };
 		4BE2DB2A29070135001407EB /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DB2929070135001407EB /* SettingsPage.swift */; };
@@ -39,6 +49,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B2D0426290BC566009F0F03 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		4B2D0428290BC632009F0F03 /* EventStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventStore.swift; sourceTree = "<group>"; };
+		4B2D042B290BC8A1009F0F03 /* EventCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCalendarView.swift; sourceTree = "<group>"; };
+		4B2D042F290BC8F2009F0F03 /* DaysEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysEvents.swift; sourceTree = "<group>"; };
+		4B2D0432290BC975009F0F03 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		4B2D0435290BCA34009F0F03 /* EventFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFormViewModel.swift; sourceTree = "<group>"; };
+		4B2D0437290BCA58009F0F03 /* EventFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFormView.swift; sourceTree = "<group>"; };
+		4B2D043B290BCA9F009F0F03 /* EventFormType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFormType.swift; sourceTree = "<group>"; };
+		4B2D0440290BCBF3009F0F03 /* EventsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsListView.swift; sourceTree = "<group>"; };
+		4B2D0442290BCC16009F0F03 /* ListViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewRow.swift; sourceTree = "<group>"; };
+		4BA992DB290BC2610078F8DD /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		4BE2DAF22906FF87001407EB /* Orange_Storm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orange_Storm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE2DAF52906FF87001407EB /* Orange_StormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange_StormApp.swift; sourceTree = "<group>"; };
 		4BE2DAF72906FF87001407EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,7 +70,6 @@
 		4BE2DB0C2906FF87001407EB /* Orange_StormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Orange_StormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE2DB102906FF87001407EB /* Orange_StormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange_StormUITests.swift; sourceTree = "<group>"; };
 		4BE2DB122906FF87001407EB /* Orange_StormUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange_StormUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		4BE2DB2129070090001407EB /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		4BE2DB23290700C8001407EB /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 		4BE2DB27290700FF001407EB /* NotificationTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTimer.swift; sourceTree = "<group>"; };
 		4BE2DB2929070135001407EB /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
@@ -81,6 +101,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B2D0425290BC553009F0F03 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4B2D0426290BC566009F0F03 /* Event.swift */,
+				4B2D0428290BC632009F0F03 /* EventStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4B2D042A290BC653009F0F03 /* CalendarViewTab */ = {
+			isa = PBXGroup;
+			children = (
+				4BA992DB290BC2610078F8DD /* CalendarView.swift */,
+				4B2D042B290BC8A1009F0F03 /* EventCalendarView.swift */,
+				4B2D042F290BC8F2009F0F03 /* DaysEvents.swift */,
+			);
+			path = CalendarViewTab;
+			sourceTree = "<group>";
+		};
+		4B2D0431290BC95F009F0F03 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4B2D0432290BC975009F0F03 /* Date+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4B2D0434290BCA0D009F0F03 /* EditUpdateView */ = {
+			isa = PBXGroup;
+			children = (
+				4B2D0435290BCA34009F0F03 /* EventFormViewModel.swift */,
+				4B2D0437290BCA58009F0F03 /* EventFormView.swift */,
+				4B2D043B290BCA9F009F0F03 /* EventFormType.swift */,
+			);
+			path = EditUpdateView;
+			sourceTree = "<group>";
+		};
+		4B2D043D290BCBB3009F0F03 /* ListViewTab */ = {
+			isa = PBXGroup;
+			children = (
+				4B2D0440290BCBF3009F0F03 /* EventsListView.swift */,
+				4B2D0442290BCC16009F0F03 /* ListViewRow.swift */,
+			);
+			path = ListViewTab;
+			sourceTree = "<group>";
+		};
 		4BE2DAE92906FF87001407EB = {
 			isa = PBXGroup;
 			children = (
@@ -104,9 +170,10 @@
 		4BE2DAF42906FF87001407EB /* Orange_Storm */ = {
 			isa = PBXGroup;
 			children = (
+				4B2D0434290BCA0D009F0F03 /* EditUpdateView */,
 				4BE2DAF52906FF87001407EB /* Orange_StormApp.swift */,
+				4B2D0425290BC553009F0F03 /* Models */,
 				4BE2DB202906FFFA001407EB /* View */,
-				4BE2DB1F2906FFF6001407EB /* Model */,
 				4BE2DAF92906FF87001407EB /* Assets.xcassets */,
 				4BE2DAFB2906FF87001407EB /* Preview Content */,
 			);
@@ -138,22 +205,17 @@
 			path = Orange_StormUITests;
 			sourceTree = "<group>";
 		};
-		4BE2DB1F2906FFF6001407EB /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		4BE2DB202906FFFA001407EB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4B2D043D290BCBB3009F0F03 /* ListViewTab */,
+				4B2D042A290BC653009F0F03 /* CalendarViewTab */,
 				4BE2DAF72906FF87001407EB /* ContentView.swift */,
-				4BE2DB2129070090001407EB /* CalendarView.swift */,
 				4BE2DB23290700C8001407EB /* MainPage.swift */,
 				4BE2DB27290700FF001407EB /* NotificationTimer.swift */,
 				4BE2DB2929070135001407EB /* SettingsPage.swift */,
 				ACB0DCB529083B5700FB38DC /* NoteView.swift */,
+				4B2D0431290BC95F009F0F03 /* Extensions */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -288,13 +350,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B2D0443290BCC16009F0F03 /* ListViewRow.swift in Sources */,
+				4B2D0427290BC566009F0F03 /* Event.swift in Sources */,
+				4B2D0438290BCA58009F0F03 /* EventFormView.swift in Sources */,
 				4BE2DAF82906FF87001407EB /* ContentView.swift in Sources */,
-				4BE2DB2229070090001407EB /* CalendarView.swift in Sources */,
+				4B2D0429290BC632009F0F03 /* EventStore.swift in Sources */,
+				4B2D042C290BC8A1009F0F03 /* EventCalendarView.swift in Sources */,
+				4B2D043C290BCA9F009F0F03 /* EventFormType.swift in Sources */,
+				4BA992DC290BC2610078F8DD /* CalendarView.swift in Sources */,
+				4B2D0433290BC975009F0F03 /* Date+Extension.swift in Sources */,
 				4BE2DAF62906FF87001407EB /* Orange_StormApp.swift in Sources */,
+				4B2D0430290BC8F2009F0F03 /* DaysEvents.swift in Sources */,
 				4BE2DB2A29070135001407EB /* SettingsPage.swift in Sources */,
+				4B2D0441290BCBF3009F0F03 /* EventsListView.swift in Sources */,
 				4BE2DB28290700FF001407EB /* NotificationTimer.swift in Sources */,
 				ACB0DCB629083B5700FB38DC /* NoteView.swift in Sources */,
 				4BE2DB24290700C8001407EB /* MainPage.swift in Sources */,
+				4B2D0436290BCA34009F0F03 /* EventFormViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

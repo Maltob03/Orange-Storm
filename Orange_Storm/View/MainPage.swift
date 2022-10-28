@@ -22,7 +22,8 @@ struct MainPageView: View {
     //Var For Breath function
     @State var timeRemaining = 12
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
-   
+    
+ 
 
 
     var body: some View {
@@ -33,20 +34,20 @@ struct MainPageView: View {
                 HStack{
                     if(hh2>12){
                         Text("Good Evening")
-                            .font(.system(size: 29.8))
+                            .font(.system(size: 26.8))
                             .bold()
                             .position(x:120, y: 30)
                     }
                     else{
                         Text("Good Moorning")
-                            .font(.system(size: 29.8))
+                            .font(.system(size: 26.8))
                             .bold()
                             .position(x:120, y: 30)
                         
                     }
                     
                     NavigationLink(
-                        destination: CalendarView (),
+                        destination: EventsCalendarView(),
                         label: {
                             
                             Image(systemName: "calendar")
@@ -111,12 +112,12 @@ struct MainPageView: View {
                     }
                 
                 if(timeRemaining>6){
-                    Text("Breath in").offset(x:0,y:50)
-                        
+                    Text("Breath in").offset(x:0,y:50).font(.title2)
+                        .fontWeight(.bold)
                 }
                 else{
-                    Text("Breath out").offset(x:0,y:50)
-                }
+                    Text("Breath out").offset(x:0,y:50).font(.title2)
+                    .fontWeight(.bold)                }
                
                  
                 
