@@ -25,9 +25,6 @@ struct MainPageView: View {
    
 
 
-    
-    
-    
     var body: some View {
         
         NavigationView {
