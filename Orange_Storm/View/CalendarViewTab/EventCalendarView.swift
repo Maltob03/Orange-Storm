@@ -27,7 +27,7 @@ struct EventsCalendarView: View {
                         formType = .new
                     } label: {
                         Image(systemName: "plus.circle.fill")
-                            .imageScale(.medium).offset(x:0,y:45)
+                            .imageScale(.medium)
                     }
                 }
             }
