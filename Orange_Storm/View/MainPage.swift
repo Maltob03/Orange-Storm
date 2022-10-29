@@ -64,6 +64,10 @@ struct MainPageView: View {
                             .font(.system(size: 26.8))
                             .bold()
                             .position(x:120, y: 30)
+                            .alert("Hey are you still breathing?", isPresented: $showingAlert) {
+                                Button("Stay Here") {state = "OK"}
+                                Button("Go to Calendar") {state = "OK" }
+                            }
                         
                         
                         
@@ -118,7 +122,7 @@ struct MainPageView: View {
                 Spacer(minLength: 20)
                     .onAppear() {
                         
-                        let animation = Animation.linear (duration: 6)
+                        let animation = Animation.linear (duration: 7)
                         withAnimation (animation.repeatForever(autoreverses: true)){
                             
                             self.isCenter = false
@@ -151,11 +155,11 @@ struct MainPageView: View {
                     }
                 
                 
-                if(timeRemaining>6){
+                if(timeRemaining>=6){
                     Text("Breath in").offset(x:0,y:50).font(.title2)
                         .fontWeight(.bold)
                 }
-                else{
+                else if (timeRemaining<6) {
                     Text("Breath out").offset(x:0,y:50).font(.title2)
                     .fontWeight(.bold)                }
                 
@@ -247,3 +251,4 @@ struct MainPageView_Previews: PreviewProvider {
         MainPageView()
     }
 }
+
