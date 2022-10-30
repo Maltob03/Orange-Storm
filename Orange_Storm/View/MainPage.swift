@@ -29,6 +29,15 @@ struct MainPageView: View {
     @State private var showingAlert = false
     @State var timeAlert = 30
     @State var state = ""
+    //Var for haptic feedback
+    let timerH = Timer.publish(every: 6, on: .main, in: .common).autoconnect()
+    @State var TimerForHaptic = 30
+    @State var boolHaptic = false
+    
+    
+    
+    
+    
     
     
     
@@ -54,6 +63,7 @@ struct MainPageView: View {
                                 Button("Stay Here") {state = "OK"}
                                 Button("Go to Calendar") {state = "OK" }
                             }
+                        
                         
                     }
                     else{
@@ -118,6 +128,7 @@ struct MainPageView: View {
                     
                     
                     
+                    
                 }
                 Spacer(minLength: 20)
                     .onAppear() {
@@ -131,11 +142,13 @@ struct MainPageView: View {
                             
                             self.isCenter2  = false
                         }
+                        
                     }
                 
                     .onReceive(timer) { _ in
                         if timeRemaining > 0 {
                             timeRemaining -= 1
+                            
                         }
                         else {
                             timeRemaining = 12
@@ -154,10 +167,23 @@ struct MainPageView: View {
                         }
                     }
                 
+                    .onReceive(timerH) { _ in
+                        if (TimerForHaptic > 0 && boolHaptic == true) {
+                            TimerForHaptic -= 1
+                            AudioServicesPlayAlertSoundWithCompletion(SystemSoundID(kSystemSoundID_Vibrate)) {   }
+                            
+                        }
+                        else {
+                            TimerForHaptic = 30
+                            
+                        }
+                    }
+                
                 
                 if(timeRemaining>=6){
                     Text("Breath in").offset(x:0,y:50).font(.title2)
                         .fontWeight(.bold)
+                    
                 }
                 else if (timeRemaining<6) {
                     Text("Breath out").offset(x:0,y:50).font(.title2)
@@ -178,6 +204,7 @@ struct MainPageView: View {
                                 TapGesture().onEnded { _ in
                                     bool1=bool1 + 1
                                     SoundManager .instance.playSound(sound:  .Balloon)
+                                    
                                 }
                                 
                             )
@@ -211,6 +238,9 @@ struct MainPageView: View {
                             .gesture(
                                 TapGesture().onEnded { _ in
                                     bool2=bool2 + 1
+                                    boolHaptic = true
+                                    
+                                    
                                 }
                             )
                         
@@ -223,7 +253,9 @@ struct MainPageView: View {
                             .position(x: 100, y: 180).gesture(
                                 TapGesture().onEnded { _ in
                                     bool2=bool2 + 1
+                                    boolHaptic = false
                                     AudioServicesPlayAlertSoundWithCompletion(SystemSoundID(kSystemSoundID_Vibrate)) {   }
+                                    
                                 }
                             )
                         
@@ -245,10 +277,11 @@ struct MainPageView: View {
             
         }
     }
+    
+    
 }
 struct MainPageView_Previews: PreviewProvider {
     static var previews: some View {
         MainPageView()
     }
 }
-
