@@ -88,7 +88,9 @@ struct MainPageView: View {
                             .position(x:120, y: 30)
                             .alert("Hey are you still breathing?", isPresented: $showingAlert) {
                                         Button("Stay Here") { }
-                                        Button("Go to Calendar") { }
+                                        Button("Go to Diary") {
+                                            EventsCalendarView()
+                                        }
                                     }
                                                 }
                     else{
