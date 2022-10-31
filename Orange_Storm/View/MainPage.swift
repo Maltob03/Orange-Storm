@@ -60,12 +60,21 @@ struct MainPageView: View {
                             .position(x:120, y: 30)
                         
                             .alert("Hey are you still breathing?", isPresented: $showingAlert) {
+// <<<<<<< HEAD
+                                        Button("Stay Here") { }
+                                        Button("Go to Diary") {
+                                            EventsCalendarView()
+                                        }
+                                    }
+                                                }
+//=======
                                 Button("Stay Here") {state = "OK"}
                                 Button("Go to Calendar") {state = "OK" }
                             }
                         
                         
                     }
+// >>>>>>> 79fe1d27ddd8af818fc48631d77a139e60e3209e
                     else{
                         
                         
@@ -272,14 +281,7 @@ struct MainPageView: View {
                     
                 }
             }
-            
-            
-            
         }
-    }
-    
-    
-}
 struct MainPageView_Previews: PreviewProvider {
     static var previews: some View {
         MainPageView()
