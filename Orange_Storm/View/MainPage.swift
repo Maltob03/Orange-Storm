@@ -34,7 +34,7 @@ struct MainPageView: View {
     @State var TimerForHaptic = 30
     @State var boolHaptic = false
     
-    
+    //commento
     
     
     
