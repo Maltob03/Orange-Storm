@@ -9,45 +9,6 @@ import SwiftUI
 import AVKit
 import AudioToolbox
 
-// Class for music
-class SoundManager{
-    
-    static let instance = SoundManager ()
-    var player : AVAudioPlayer?
-    enum SoundOption : String {
-         case Balloon
-    }
-    func playSound( sound: SoundOption){
-        guard  let url = Bundle.main.url(forResource: sound.rawValue, withExtension: ".mp3") else { return }
-        
-        do {
-            
-            player  = try AVAudioPlayer (contentsOf: url)
-            player?.play()
-            
-        } catch let error {
-            print("error playing sound. \(error.localizedDescription )")
-            
-            
-        }
-    }
-    func pauseSound( sound: SoundOption){
-        
-        
-        guard  let url = Bundle.main.url(forResource: sound.rawValue, withExtension: ".mp3") else { return }
-        
-        do {
-            
-            player  = try AVAudioPlayer (contentsOf: url)
-            player?.pause()
-            
-        } catch let error {
-            print("error playing sound. \(error.localizedDescription )")
-            
-            
-        }
-    }
-}
 
 
 struct MainPageView: View {
@@ -66,8 +27,19 @@ struct MainPageView: View {
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     //VAR FOR ALERT
     @State private var showingAlert = false
-
-
+    @State var timeAlert = 30
+    @State var state = ""
+    //Var for haptic feedback
+    let timerH = Timer.publish(every: 6, on: .main, in: .common).autoconnect()
+    @State var TimerForHaptic = 30
+    @State var boolHaptic = false
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -86,13 +58,23 @@ struct MainPageView: View {
                             .font(.system(size: 26.8))
                             .bold()
                             .position(x:120, y: 30)
+                        
                             .alert("Hey are you still breathing?", isPresented: $showingAlert) {
+// <<<<<<< HEAD
                                         Button("Stay Here") { }
                                         Button("Go to Diary") {
                                             EventsCalendarView()
                                         }
                                     }
                                                 }
+//=======
+                                Button("Stay Here") {state = "OK"}
+                                Button("Go to Calendar") {state = "OK" }
+                            }
+                        
+                        
+                    }
+// >>>>>>> 79fe1d27ddd8af818fc48631d77a139e60e3209e
                     else{
                         
                         
@@ -101,13 +83,17 @@ struct MainPageView: View {
                             .font(.system(size: 26.8))
                             .bold()
                             .position(x:120, y: 30)
-                            
-
+                            .alert("Hey are you still breathing?", isPresented: $showingAlert) {
+                                Button("Stay Here") {state = "OK"}
+                                Button("Go to Calendar") {state = "OK" }
+                            }
+                        
+                        
                         
                         
                     }
                     
-                        
+                    
                     
                     
                     NavigationLink(
@@ -151,11 +137,12 @@ struct MainPageView: View {
                     
                     
                     
+                    
                 }
                 Spacer(minLength: 20)
                     .onAppear() {
                         
-                        let animation = Animation.linear (duration: 6)
+                        let animation = Animation.linear (duration: 7)
                         withAnimation (animation.repeatForever(autoreverses: true)){
                             
                             self.isCenter = false
@@ -164,24 +151,50 @@ struct MainPageView: View {
                             
                             self.isCenter2  = false
                         }
+                        
                     }
                 
                     .onReceive(timer) { _ in
                         if timeRemaining > 0 {
                             timeRemaining -= 1
+                            
                         }
                         else {
                             timeRemaining = 12
+                            
+                        }
+                    }
+                
+                    .onReceive(timer) { _ in
+                        if (timeAlert > 0 || state == "OK")  {
+                            timeAlert -= 1
+                            showingAlert = false
+                        }
+                        else {
                             showingAlert = true
                             
                         }
                     }
                 
-                if(timeRemaining>6){
+                    .onReceive(timerH) { _ in
+                        if (TimerForHaptic > 0 && boolHaptic == true) {
+                            TimerForHaptic -= 1
+                            AudioServicesPlayAlertSoundWithCompletion(SystemSoundID(kSystemSoundID_Vibrate)) {   }
+                            
+                        }
+                        else {
+                            TimerForHaptic = 30
+                            
+                        }
+                    }
+                
+                
+                if(timeRemaining>=6){
                     Text("Breath in").offset(x:0,y:50).font(.title2)
                         .fontWeight(.bold)
+                    
                 }
-                else{
+                else if (timeRemaining<6) {
                     Text("Breath out").offset(x:0,y:50).font(.title2)
                     .fontWeight(.bold)                }
                 
@@ -200,6 +213,7 @@ struct MainPageView: View {
                                 TapGesture().onEnded { _ in
                                     bool1=bool1 + 1
                                     SoundManager .instance.playSound(sound:  .Balloon)
+                                    
                                 }
                                 
                             )
@@ -233,6 +247,9 @@ struct MainPageView: View {
                             .gesture(
                                 TapGesture().onEnded { _ in
                                     bool2=bool2 + 1
+                                    boolHaptic = true
+                                    
+                                    
                                 }
                             )
                         
@@ -245,7 +262,9 @@ struct MainPageView: View {
                             .position(x: 100, y: 180).gesture(
                                 TapGesture().onEnded { _ in
                                     bool2=bool2 + 1
+                                    boolHaptic = false
                                     AudioServicesPlayAlertSoundWithCompletion(SystemSoundID(kSystemSoundID_Vibrate)) {   }
+                                    
                                 }
                             )
                         
@@ -262,12 +281,7 @@ struct MainPageView: View {
                     
                 }
             }
-            
-            
-            
         }
-    }
-}
 struct MainPageView_Previews: PreviewProvider {
     static var previews: some View {
         MainPageView()
