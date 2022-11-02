@@ -61,7 +61,7 @@ struct MainPageView: View {
                         
                             .alert("Hey are you still breathing?", isPresented: $showingAlert) {
                                 Button("Stay Here") {state = "OK"}
-                                Button("Go to Calendar") {state = "OK" }
+                                Button("Go to Diary") {state = "OK" }
                             }
                         
                         

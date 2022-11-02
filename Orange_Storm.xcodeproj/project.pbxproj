@@ -28,8 +28,6 @@
 		4BE2DB112906FF87001407EB /* Orange_StormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DB102906FF87001407EB /* Orange_StormUITests.swift */; };
 		4BE2DB132906FF87001407EB /* Orange_StormUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DB122906FF87001407EB /* Orange_StormUITestsLaunchTests.swift */; };
 		4BE2DB24290700C8001407EB /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DB23290700C8001407EB /* MainPage.swift */; };
-		4BE2DB28290700FF001407EB /* NotificationTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DB27290700FF001407EB /* NotificationTimer.swift */; };
-		4BE2DB2A29070135001407EB /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2DB2929070135001407EB /* SettingsPage.swift */; };
 		ACB0DCB629083B5700FB38DC /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0DCB529083B5700FB38DC /* NoteView.swift */; };
 /* End PBXBuildFile section */
 
@@ -75,8 +73,6 @@
 		4BE2DB102906FF87001407EB /* Orange_StormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange_StormUITests.swift; sourceTree = "<group>"; };
 		4BE2DB122906FF87001407EB /* Orange_StormUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange_StormUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4BE2DB23290700C8001407EB /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
-		4BE2DB27290700FF001407EB /* NotificationTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTimer.swift; sourceTree = "<group>"; };
-		4BE2DB2929070135001407EB /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
 		ACB0DCB529083B5700FB38DC /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -226,8 +222,6 @@
 				4BE2DAF72906FF87001407EB /* ContentView.swift */,
 				4BE2DB23290700C8001407EB /* MainPage.swift */,
 				32DF14CB290C25B300005D2C /* Music */,
-				4BE2DB27290700FF001407EB /* NotificationTimer.swift */,
-				4BE2DB2929070135001407EB /* SettingsPage.swift */,
 				ACB0DCB529083B5700FB38DC /* NoteView.swift */,
 				4B2D0431290BC95F009F0F03 /* Extensions */,
 			);
@@ -377,9 +371,7 @@
 				4B2D0433290BC975009F0F03 /* Date+Extension.swift in Sources */,
 				4BE2DAF62906FF87001407EB /* Orange_StormApp.swift in Sources */,
 				4B2D0430290BC8F2009F0F03 /* DaysEvents.swift in Sources */,
-				4BE2DB2A29070135001407EB /* SettingsPage.swift in Sources */,
 				4B2D0441290BCBF3009F0F03 /* EventsListView.swift in Sources */,
-				4BE2DB28290700FF001407EB /* NotificationTimer.swift in Sources */,
 				ACB0DCB629083B5700FB38DC /* NoteView.swift in Sources */,
 				4BE2DB24290700C8001407EB /* MainPage.swift in Sources */,
 				4B2D0436290BCA34009F0F03 /* EventFormViewModel.swift in Sources */,
