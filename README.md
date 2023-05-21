@@ -45,12 +45,12 @@ Gasp is a powerful app that enables you to practice guided breathing exercises w
 
 ## Features
 
-**Guided Breathing:** Gasp offers a variety of guided breathing exercises to help you relax, reduce stress, and enhance mindfulness. With visual cues and audio instructions, you can easily follow along and achieve a state of calm and focus.
+* **Guided Breathing:** Gasp offers a variety of guided breathing exercises to help you relax, reduce stress, and enhance mindfulness. With visual cues and audio instructions, you can easily follow along and achieve a state of calm and focus.
 
-**Emotion Tracking:** Using the built-in calendar, you can record your emotions and sentiments experienced throughout the day. By adding notes and tags to each entry, you can gain insights into your emotional well-being over time and identify patterns and triggers.
+* **Emotion Tracking:** Using the built-in calendar, you can record your emotions and sentiments experienced throughout the day. By adding notes and tags to each entry, you can gain insights into your emotional well-being over time and identify patterns and triggers.
 
 
-**User-Friendly Interface:** Gasp features a clean and intuitive user interface, making it easy to navigate and utilize its features. The app's design promotes a calming and relaxing environment, enhancing the overall user experience.
+* **User-Friendly Interface:** Gasp features a clean and intuitive user interface, making it easy to navigate and utilize its features. The app's design promotes a calming and relaxing environment, enhancing the overall user experience.
 
 
 ## Installation
