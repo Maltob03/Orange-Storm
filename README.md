@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">Keep your password and account secure with StrongBOX</h4>
+<h4 align="center">Gasp: Mindful Breathing and Emotion Tracker</h4>
 
 <!-- 
 <p align="center">
