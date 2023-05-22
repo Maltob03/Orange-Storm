@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a><img src="https://res.cloudinary.com/maltob03/image/upload/v1684680654/1024_b9f2ge.png" width="200"></a>
+  <a><img src="https://res.cloudinary.com/maltob03/image/upload/v1684789092/gasp_jlfwkn.png" width="200"></a>
   <br>
   GASP
   <br>
